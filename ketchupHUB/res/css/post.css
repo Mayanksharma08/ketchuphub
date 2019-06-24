@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.post{
+    background-color: rgb(205, 217, 231);
+}
+
+.post img{
+    position: relative;
+    margin-left:-190px;
+    margin-top: 65px;
+    padding:0;
+    width:100%;
+    height: 550px;
+}
+
+.post-mast__content {
+    position: absolute;
+    height: 550px;
+    width: 40%;
+    margin-top: 65px;
+    right: 0;
+    top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    padding: 3em;
+    background: #000;
+    text-align: left;
+    color: #111;
+}
+
+.post-mast__title{
+    margin-top: -130px;
+    color:#fff;
+    display: inline-block;
+    font-family: "Freight Big",'Georgia',serif;
+    letter-spacing: 0.02em;
+    font-size: 40px;
+}
+
+.post-mast__date{
+    
+    color: #fff;
+    display: inline-block;
+    margin-top: 800px;
+}
+
+/*slicknav*/
+
+.slicknav_menu{
+/*        *zoom: 1;*/
+        font-size: 16px;
+        padding: 5px;
+        display:none;
+        margin-right: 15px;
+        margin-top: 20px;
+        margin-top: 20px;
+        position: fixed;
+        right: 0;
+        z-index: 99999;
+        width:25%;
+}
+
+.slicknav_btn{
+    background: transparent;
+}
+        
+ul.slicknav_nav{
+        background: transparent;
+        left:0;
+        position:absolute;
+        top: 0;
+        width:80%;
+        }
+
+.grid-med, .grid--med {
+    max-width: 45em;
+}
+
+.grid--pad {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.grid-med p {
+    margin-bottom: 1.3em;
+}
+
+p{
+        display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #000;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
